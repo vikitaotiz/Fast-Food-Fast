@@ -153,3 +153,92 @@ button {
 
 .food5{
     background: #E3CCDC;
+}
+
+.cont1 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+#col1, #col2 {
+    border: 1px solid #EAEDEF;
+}
+
+#col1 ul li{
+    list-style: none;
+    margin: 5%;
+    padding: 5%;
+    cursor: pointer;
+}
+
+#col2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5%;
+}
+
+.men {
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+    padding: 5%;
+    margin: 2%;
+    color: #EAEDEF;
+}
+
+#men1 {
+    background-image: url("https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-image.foodandwine.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_inbody_900x506%2Fpublic%2F1502824044%2Froyal-farms-best-gas-station-food-FT-SS0817.jpg%3Fitok%3Dig79fdSU&w=700&q=85");
+    background-position: center; 
+}
+
+#men2 {
+    background-image: url("https://grist.files.wordpress.com/2017/06/vegetables.jpg?w=1200");
+    background-position: center;
+    object-fit: cover;
+}
+
+#men3 {
+    background-image: url("http://static1.squarespace.com/static/53c462f3e4b0f7bda7cfaa04/5911249a3a0411dd50c3855c/5936d2f4e6f2e1c5ea0c9392/1496768943473/8050.jpg?format=1000w");
+    background-position: center;
+}
+
+#men4 {
+    background-image: url("https://pendolamama.co.ke/wp-content/uploads/2017/06/20170609-best-african-food-blog-pendolamama-pilau-pilaf-1goatpilau-25.jpg");
+    background-position: center;
+}
+
+.admin-col{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.adm {
+    background: #fff;
+}
+
+.adm ul li{
+    list-style: none;
+    margin: 5%;
+    padding: 5%;
+    cursor: pointer;
+}
+
+.tab {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tab td, .tab th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tab tr:nth-child(even){background-color: #f2f2f2;}
+
+.tab tr:hover {background-color: #ddd;}
+
+.tab th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #462617;
+    color: white;
+}
