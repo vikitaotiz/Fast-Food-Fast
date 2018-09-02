@@ -1,0 +1,155 @@
+/*Global styles*/
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 4fr 1fr;
+    height: 100vh;
+    grid-gap: 5px;
+}
+
+#header, #content, #footer {
+    /* background: #fff; */
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+#content {
+    padding: 4%;
+    background: #EAEDEF;
+}
+
+#header {
+    background-image: url("http://i.hurimg.com/i/hurriyet/75/0x0/55eb68b4f018fbb8f8bf3988.jpg");
+    /* -webkit-filter: blur(100px);
+    filter: blur(5px); */
+}
+
+#footer {
+    background: #462617;
+    color: #EAEDEF;
+    display: grid;
+    padding: 2%;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    text-align: center;
+    color: #EAEDEF;
+}
+
+/*Content Section of Index Page*/
+.cont-ind {
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr; 
+    grid-gap: 5px;
+}
+
+#menu {
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   border: 1px solid #EAEDEF;
+   box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+#img {
+    background-image: url("https://theculturetrip.com/wp-content/uploads/2015/01/12632523904_a7b755ebe9_b.jpg");
+}
+
+#process, #reviews {
+    border: 1px solid #EAEDEF;
+    padding: 2%;
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+h2 {
+   text-align: center;
+   border-bottom: 1px solid;
+}
+
+h4 {
+    text-align: center;
+    border-bottom: 1px solid; 
+}
+
+/*Navigation Area*/
+.nav {
+ padding: 1%;
+ background: #462617;
+}
+
+.nav a{
+ text-decoration: none;
+ margin: 1%;
+ color: #fff;
+}
+
+.nav a:hover{
+    color: #616161;
+    transition: 1s;
+}
+
+/*Content Section of SignIn Page*/
+form {
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+    background: #462617;
+    width: 50%;
+    color: #EAEDEF;
+    margin: auto;
+    padding: 2%;
+}
+button {
+    width: 95%;
+    padding: 1%;
+    border: none;
+    border-radius:2px;
+    text-underline:
+}
+.input {
+    border: none;
+    border-radius: 2px;
+    width: 90%;
+    background: #EAEDEF;
+    padding: 2%;
+    margin: 1%;
+}
+
+/*Content Section of SignUp Page*/
+
+/*Content Section of Profile Page*/
+
+/*Content Section of Admin Page*/
+
+.section_2 {
+    background-image: url("https://danielsoutlets.com/wp-content/uploads/2018/08/payment-icons.png");
+    background-repeat: no-repeat;
+}
+
+.food{
+    /* color: #EAEDEF; */
+    margin-bottom: 2%;
+    padding: 3%; 
+}
+.food1{
+   background: #FD9230;
+}
+
+.food2{
+    background: #F5C66C;
+}
+
+.food3{
+    background: #52892E;
+}
+
+.food4{
+    background: #D7BA90;
+}
+
+.food5{
+    background: #E3CCDC;
